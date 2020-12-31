@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=ReNumber
+qgisMinimumVersion=3.4
+description=This plugin allows you to define an incremented number of your features based on custom criterias and ordering
+version=0.1
+author=Paul-André Duchesne / Natagora asbl
+email=paul-andre.duchesne@natagora.be
+
+about=This plugin provide a way to create autonumbering in a new attribute column or to update an existing one based on multiple criterias: - all features or only selected one - with prefix and/or suffix (possibly based on criteria itself) - following a given order (criterias based)
+
+tracker=https://github.com/PolloFox/re-number/issues
+repository=https://github.com/PolloFox/re-number
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/PolloFox/re-number
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+#category=Vector
+
+# If the plugin can run on QGIS Server.
+server=False
+
